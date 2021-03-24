@@ -1,0 +1,50 @@
+Arguments: 
+  /home/sandbox/.nvm/versions/node/v14.15.1/bin/node /home/sandbox/.nvm/versions/node/v14.15.1/bin/yarn dev
+
+PATH: 
+  /home/sandbox/.nvm/versions/node/v14.15.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Failed to replace env in config: ${GITLAB_AUTH_TOKEN}
+      at /home/sandbox/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:98430:13
+      at String.replace (<anonymous>)
+      at envReplace (/home/sandbox/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:98425:16)
+      at Function.normalizeConfig (/home/sandbox/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:31887:69)
+      at NpmRegistry.<anonymous> (/home/sandbox/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:31917:34)
+      at Generator.next (<anonymous>)
+      at step (/home/sandbox/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/sandbox/.nvm/versions/node/v14.15.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "vite-vue-template",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "vue": "^3.0.5"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^1.1.5",
+      "@vue/compiler-sfc": "^3.0.5",
+      "vite": "^2.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
