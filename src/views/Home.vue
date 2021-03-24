@@ -22,5 +22,17 @@ const menus = ref([
     text: "DataTable",
     path: "/data-table/basic",
   },
+  {
+    text: "Dropdown",
+    path: "/dropdown",
+  },
+  {
+    text: "Modal",
+    path: "/modal",
+  },
+  {
+    text: "Headless Select",
+    path: "/headless/select",
+  },
 ]);
 </script>
