@@ -4,6 +4,7 @@ import DataTableBasic from "../views/data-table/DataTableBasic.vue";
 import DropdownSlots from "../views/dropdown/DropdownSlots.vue";
 import HeadlessSelectBasic from "../views/headless-select/HeadlessSelectBasic.vue";
 import ModalIndex from "../views/modal/ModalIndex.vue";
+import BreadcrumbsExample from '../views/breadcrumbs/BreadcrumbsExample.vue';
 
 export default [
   {
@@ -29,5 +30,9 @@ export default [
   {
     path: "/headless/select",
     component: HeadlessSelectBasic
+  },
+  {
+    path: "/breadcrumbs",
+    component: BreadcrumbsExample
   }
 ];

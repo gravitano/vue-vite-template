@@ -34,5 +34,9 @@ const menus = ref([
     text: "Headless Select",
     path: "/headless/select",
   },
+  {
+    text: "Breadcrumbs",
+    path: "/breadcrumbs",
+  },
 ]);
 </script>
